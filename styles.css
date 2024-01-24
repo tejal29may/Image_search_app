@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: bisque; */
+    background-color:honeydew;
+   
+    /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+input{
+    width: 450px;
+    height: 40px;
+    /* background-color: aliceblue; */
+    
+    border: 2px solid #4caf50;
+    border-radius: 6px;
+    
+   
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 3%;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* width: 300px; */
+    /* border: 1px solid blue; */
+}
+.result img{
+    width: 299px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    
+    /* border: 1px solid red; */
+}
+/* .show_result{
+    display: flex;
+
+} */
+.show_result{
+    border-radius: 8px;
+    width: 300px;
+    /* height: 300px; */
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(238, 208, 231);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+}
+#read_more{
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 46%;
+    margin-top: 1%;
+}
+.para{
+    font-size: 17px;
+    font-family: cursive;
+    height: 80px;
+    width: 250px;
+   
+}
+
+.show_result:hover{
+    transform: scale(1.05);
+    background-color: cadetblue;
+    color: white;
+}
